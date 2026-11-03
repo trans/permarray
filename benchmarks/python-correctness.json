@@ -1,0 +1,53 @@
+{
+  "checks": {
+    "permutations": 46234,
+    "lookups": 362879,
+    "insertions": 5913,
+    "largest_deletions": 46233,
+    "container_operations": 10000
+  },
+  "adjacent_swap_counterexample": {
+    "before": [
+      0,
+      1,
+      2
+    ],
+    "after": [
+      1,
+      0,
+      2
+    ],
+    "ranks": [
+      0,
+      5
+    ]
+  },
+  "growth": [
+    {
+      "size": 16,
+      "max_rank_bits": 45,
+      "identity_first_lookup_divmods": 16
+    },
+    {
+      "size": 50,
+      "max_rank_bits": 215,
+      "identity_first_lookup_divmods": 50
+    },
+    {
+      "size": 64,
+      "max_rank_bits": 296,
+      "identity_first_lookup_divmods": 64
+    },
+    {
+      "size": 256,
+      "max_rank_bits": 1684,
+      "identity_first_lookup_divmods": 256
+    },
+    {
+      "size": 1024,
+      "max_rank_bits": 8770,
+      "identity_first_lookup_divmods": 1024
+    }
+  ],
+  "limitations": "Reference algorithms and exact operation counts, not a wall-clock benchmark or lower-bound proof."
+}

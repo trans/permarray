@@ -1,0 +1,9 @@
+[package]
+name = "permarray"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.82"
+description = "Experimental collections whose logical order is encoded as a permutation rank"
+publish = false
+
+[dependencies]
